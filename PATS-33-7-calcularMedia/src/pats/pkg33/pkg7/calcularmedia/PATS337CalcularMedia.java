@@ -18,8 +18,7 @@ public class PATS337CalcularMedia {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int numero = 0, contador = 0, suma = 0;
-        float promedio;
+       float numero = 0, contador = 0, suma = 0, promedio;
         
         do{
            suma += numero;
@@ -27,7 +26,7 @@ public class PATS337CalcularMedia {
            contador ++;
         }while(numero > 0);
         
-        promedio = suma / (contador - 1); //-1 Por que entra el do while toma uno de mas al momento que entra.
+        promedio =  suma / (contador - 1); //-1 Por que entra el do while toma uno de mas al momento que entra.
         
         JOptionPane.showMessageDialog(null, "El Promedio es: " + promedio);
         
